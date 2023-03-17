@@ -1,0 +1,38 @@
+.header-bg-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 28px;
+  margin-right: 9px;
+}
+
+.logo-heading {
+  font-family: 'roboto';
+  color: #12022f;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.header-ul-container {
+  list-style-type: none;
+  padding: 0;
+}
+
+.home {
+  margin-left: 12px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .logo-heading {
+    font-size: 15px;
+  }
+  .home {
+    margin-left: 9px;
+  }
+}

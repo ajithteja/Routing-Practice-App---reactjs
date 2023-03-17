@@ -1,0 +1,27 @@
+.contact-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 85vh;
+}
+
+.contact-img {
+  width: 180px;
+}
+
+.contact-text {
+  font-size: 45px;
+  font-family: 'roboto';
+  font-weight: 500;
+  color: #6d396b;
+}
+
+@media (max-width: 767px) {
+  .contact-img {
+    width: 170px;
+  }
+  .contact-text {
+    font-size: 38px;
+  }
+}

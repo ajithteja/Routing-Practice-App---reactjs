@@ -1,0 +1,27 @@
+.notFount-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 85vh;
+}
+
+.notFound-img {
+  width: 180px;
+}
+
+.notFount-text {
+  font-size: 45px;
+  font-family: 'roboto';
+  font-weight: 500;
+  color: #6d396b;
+}
+
+@media (max-width: 767px) {
+  .notFound-img {
+    width: 170px;
+  }
+  .notFound-text {
+    font-size: 38px;
+  }
+}
